@@ -3,7 +3,7 @@ package com.tca.arraylist;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class ArrayListMethods {
+public class ArrayListDemo {
     public static void main(String[] args) {
         ArrayList<String> al = new ArrayList<>();
 
