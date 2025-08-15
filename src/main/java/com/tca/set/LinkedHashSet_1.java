@@ -8,20 +8,20 @@ public class LinkedHashSet_1 {
     public static void main(String[] args) {
 
         // Unique value , Order unchanged
-        LinkedHashSet<String> lhs = new LinkedHashSet<>();
+        LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
 
-        lhs.add("Pune");
-        lhs.add("Mumbai");
-        lhs.add("Delhi");
-        lhs.add("Bangalore");
-        lhs.add("Pune");
-        lhs.add("Mumbai");
+        lhs.add(11);
+        lhs.add(44);
+        lhs.add(22);
+        lhs.add(55);
+        lhs.add(22);
+        lhs.add(11);
 
         System.out.println(lhs);
 
         System.out.println("---------------------------");
 
-        for(String data : lhs){
+        for(Integer data : lhs){
             System.out.println(data);
         }
 
