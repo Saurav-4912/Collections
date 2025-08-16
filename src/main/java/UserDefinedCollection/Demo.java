@@ -18,7 +18,19 @@ public class Demo {
         L.add(s2);
         L.add(s3);
 
+
+        System.out.println("---- Percentage Comparator ------");
         Collections.sort(L, new PercentageComparator());
+
+        for(Student ob : L){
+            System.out.println(ob.getRno());
+            System.out.println(ob.getName());
+            System.out.println(ob.getPer());
+            System.out.println("---------------------");
+        }
+
+        System.out.println("---- Name Comparator ------");
+        Collections.sort(L, new NameComparator());
 
         for(Student ob : L){
             System.out.println(ob.getRno());
