@@ -21,5 +21,16 @@ public class LinkedHashMap_1 {
             System.out.println(e.getKey() + " -> " + e.getValue());
         }
 
+
+        System.out.println("------------------");
+
+        char ch[] = {'A','B','C'};
+
+        String str = new String(ch);
+
+        System.out.println(str);
+
+
+
     }
 }
