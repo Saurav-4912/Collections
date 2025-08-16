@@ -16,7 +16,7 @@ public class HashTable_1 {
 
 
         System.out.println("**************** Using Enumeration *************");
-        Enumeration e = hm.keys();
+        Enumeration<Integer> e = hm.keys();
 
         while(e.hasMoreElements()){
             Integer key = (Integer) e.nextElement();
